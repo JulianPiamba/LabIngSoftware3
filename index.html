@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hoja de Vida</title> 
+</head>
+<body>
+    <header>
+        <h1>Hoja de Vida</h1>
+        <p>Julian Felipe Piamba Viveros</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#datos">Datos Personales</a></li>
+            <li><a href="#academica">Información Académica</a></li>
+            <li><a href="#laboral">Información Laboral</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="datos">
+        <img src="images/fotoPersonal1.jpg" alt="Foto Personal">
+        <h2>Datos Personales</h2>
+        <p>Nombres: Julian Felipe</p>
+        <p>Apellidos: Piamba Viveros</p>
+        <p>Fecha de Nacimiento: 26 de mayo del 2000</p>
+        <p>CC: 1002971746</p>
+    </section>
+    <section id="academica">
+        <h2>Información Académica</h2>
+        <h3>Bachiller Académico</h3>
+        <p>Colegio Técnico Comfacauca: Grados 1-3</p>
+        <p>Institución Educativa Don Bosco: Grados 4-11</p>
+        <h3>Técnico en Mantenimiento de Computadores (SENA)</h3>
+        <p>Año 2017</p>
+        <h3>Ingeniería de Sistemas (Universidad del Cauca)</h3>
+        <p>Actualmente en el séptimo semestre</p>
+    </section>
+    <section id="laboral">
+        <h2>Información Laboral</h2>
+        <h3>Administrador de Almacén de Patinaje</h3>
+        <p>2018 - 2019</p>
+        <p>Atecion al cliente y manejo del inventario</p>
+        <h3>Mesero en Restaurante</h3>
+        <p>2021 - 2022</p>
+        <p>Atención al cliente en el area de Mesero. </p>
+        <h3>Mesero en Gardens Restaurante</h3>
+        <p>2022 - 2023 (Actual)</p>
+        <p>Desarrollo habilidades de atencion al cliente y barman.</p>
+    </section>
+    <section id="referencias">
+        <h2>Referencias</h2>
+        <h3>Referencia Familiar</h3>
+        <p>Nombre: William Piamba Fernández</p>
+        <p>CC: 76312176</p>
+        <p>Número de Contacto: 3178604651</p>
+        <h3>Referencia Laboral</h3>
+        <p>Nombre: Jorge Limas</p>
+        <p>Número de Contacto: 3136096708</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puede ponerse en contacto conmigo a través del siguiente número de teléfono:</p>
+        <p>3226223075</p>
+        <p>O mediante el formulario de contacto a continuación:</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="3" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Hoja de Vida</p>
+    </footer>
+</body>
+</html>
